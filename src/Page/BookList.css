@@ -13,3 +13,6 @@
 .sc-bdVaJa{box-sizing:initial}
 .image-bottom-left{position:absolute;bottom:8px;left:16px}
 .image-header{background:#b3b3b3;width:auto}
+.slide-left-icon{
+    transform: rotate(180deg);
+}

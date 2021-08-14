@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ItemsCarousel from 'react-items-carousel';
-import SliderArrow from '../assets/slider_arrow.png'
+import SliderArrowRight from '../assets/slider_arrow.png'
 const Books = (props) => {
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const chevronWidth = 1;
@@ -13,8 +13,8 @@ const Books = (props) => {
                     activeItemIndex={activeItemIndex}
                     numberOfCards={4}
                     gutter={22}
-                    leftChevron={<button>{}</button>}
-                    rightChevron={<img src={SliderArrow} alt="sideNav" />}
+                    leftChevron={<img src={SliderArrowRight} alt="sideNav" className="slide-left-icon" />}
+                    rightChevron={<img src={SliderArrowRight} alt="sideNav" />}
                     outsideChevron={true}
                     chevronWidth={chevronWidth}
                 >
