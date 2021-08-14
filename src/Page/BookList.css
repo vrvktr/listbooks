@@ -1,0 +1,15 @@
+.Header{font-size:64px;font-weight:100;font-stretch:normal;font-style:normal;line-height:1.125;letter-spacing:normal;color:#fff;padding-left:50px;margin:0 0 16px}
+.Description{font-family:Helvetica Neue LT W05_45 Light;font-size:16px;font-weight:300;font-stretch:normal;font-style:normal;line-height:1.38;letter-spacing:.4px;color:#fff;margin:0;max-width:460px;padding-left:50px}
+.Book-category-title{font-family:Helvetica Neue LT W05_65 Medium;font-size:22px;font-weight:500;font-stretch:normal;font-style:normal;line-height:1.27;letter-spacing:normal;color:#fff}
+.Book-image{width:60px;border-radius:4px;object-fit:cover}
+.book-name{font-size:40px;font-weight:100;font-stretch:normal;font-style:normal;line-height:1.2;letter-spacing:.6px;color:#c3a572;margin-bottom:40px;margin-top:0;max-width:360px;text-align:left}
+.book-author{font-size:18px;font-weight:500;font-stretch:normal;font-style:normal;line-height:normal;letter-spacing:normal;color:#fff;margin-bottom:2px}
+.book-publisher{font-size:14px;font-weight:300;font-stretch:normal;font-style:normal;line-height:1.44;letter-spacing:.43px;color:hsla(0,0%,100%,.6)}
+.book-description{font-family:Helvetica Neue LT W05_45 Light;font-size:14px;font-weight:300;font-stretch:normal;font-style:normal;line-height:1.36;letter-spacing:.4px;color:hsla(0,0%,100%,.7);padding:0 20px 0 40px;word-break:break-word}
+.sliderImage:hover{transform:scale(1.1);box-sizing:initial}
+.sc-htpNat{height:auto}
+.image-container{min-height:495px;max-height:600px;border-radius:11px;position:relative}
+.rating{background-color:navy;padding:2px;border-radius:0 11px 0 11px}
+.sc-bdVaJa{box-sizing:initial}
+.image-bottom-left{position:absolute;bottom:8px;left:16px}
+.image-header{background:#b3b3b3;width:auto}
