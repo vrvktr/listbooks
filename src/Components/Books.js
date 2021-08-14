@@ -13,15 +13,19 @@ const Books = (props) => {
                     activeItemIndex={activeItemIndex}
                     numberOfCards={4}
                     gutter={22}
-                    leftChevron={<button>{'<'}</button>}
-                    rightChevron={<img src={SliderArrow} />}
+                    leftChevron={<button>{}</button>}
+                    rightChevron={<img src={SliderArrow} alt="sideNav" />}
                     outsideChevron={true}
                     chevronWidth={chevronWidth}
                 >
                     {props.listOfBooks.map((book) => (
                         <div className="image-container sliderImage" onClick={() => props.handleSelectedBook(book)} style={{ backgroundImage: `url(${book.book_image})` }}>
-                            <div class="text-end"><span className="rating">{`${book.rating} out of 5`}</span></div>
-                          
+                            <div class="text-end">
+                                <span className="rating">
+                                    {`${book.rating} out of 5`}
+                                </span>
+                            </div>
+
                         </div>
                     ))}
 

@@ -7,12 +7,10 @@ import Header from '../Components/Header'
 import './BookList.css';
 const books = require('../books.json');
 const BookList = (props) => {
-    console.log(books);
-    const [isBook, setBook] = useState(books.results.books);
+    const [isBook] = useState(books.results.books);
     const [isSelectedBook, setSelectedBook] = useState();
 
     const handleSelectedBook = (book) => {
-        console.log(book);
         setSelectedBook(book);
     }
     const closeSelected=()=>{

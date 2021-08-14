@@ -6,7 +6,7 @@ const BookDetails = (props) => {
             <div className="col-4">
                 <span className="book-name">{props.book.title}</span>
                 <div className="my-5">
-                    <img src={props.book.book_image} className="Book-image" />
+                    <img src={props.book.book_image} className="Book-image" alt={props.book.book_image} />
                     <div className="py-3">
                         <button className="btn btn-dark">Add to favourites +</button>
                     </div>
@@ -23,7 +23,7 @@ const BookDetails = (props) => {
 
             </div>
             <div className="col-2 text-end">
-                <button className="btn" onClick={()=>props.closeSelected()}><i class="fa fa-times" aria-hidden="true" style={{ color: 'white', fontSize: "30px" }}></i></button>
+                <button className="btn" onClick={() => props.closeSelected()}><i class="fa fa-times" aria-hidden="true" style={{ color: 'white', fontSize: "30px" }}></i></button>
 
             </div>
         </div>

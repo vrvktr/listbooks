@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React from 'react'
 import logo from '../assets/bmuse_logo.png'
 import search from '../assets/search.png'
 const Header = (props) => {
